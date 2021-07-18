@@ -7,7 +7,9 @@ function Home() {
 		  <div className='headerContainer'>
 			<h1> Xenx Pasta</h1>
 			<p> PASTA TO FIT ANY TASTE</p>
-			
+			<Link to='/menu'>
+			  <button> ORDER NOW</button>
+			</Link>
 		  </div>
 		</div>
 	)
