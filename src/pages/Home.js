@@ -1,6 +1,7 @@
 import { Link } from '@material-ui/core'
 import React from 'react';
 import BackImage from '../assets/vermi.png';
+import '../styles/Home.css';
 
 function Home() {
 	return (
