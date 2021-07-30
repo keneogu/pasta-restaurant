@@ -1,9 +1,10 @@
 import React from "react";
 import BackImage from "../assets/vermi.png";
+import '../styles/Contact.css';
 
 function contact() {
   return (
-    <div>
+    <div className="contact">
       <div
         className="leftSide"
         style={{ backgroundImage: `url(${BackImage})` }}
