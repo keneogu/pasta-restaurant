@@ -42,7 +42,12 @@
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-  }
+	transition: all 0.5s ease;
+	}
+	
+	.menuItem div:hover {
+		background-size: 130%;
+	}
   
   .menuItem h1,
   .menuItem p {
